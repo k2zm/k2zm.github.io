@@ -1,2 +1,3 @@
-plugins:
-  - jekyll-sitemap
+url: https://k2zm.github.io
+baseurl: ""
+plugins: [jekyll-sitemap, jekyll-seo-tag]
