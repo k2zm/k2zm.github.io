@@ -1,13 +1,11 @@
 <section class="intro" markdown="1">
 
-<h1><span lang="ja">北沢 一真</span> / <span lang="en">Kazuma Kitazawa</span></h1>
-<p>筑波大学でコンピュータビジョンの研究を行っています。</p>
+# 北沢 一真 / Kazuma Kitazawa
+2025年度まで筑波大学に所属し、コンピュータビジョンの研究を行っていました。
 
 <dl aria-label="Profile" class="meta" markdown="1">
 <dt>所属</dt>
-<dd>筑波大学 計算撮像研究室 M2（2025年現在）</dd>
-<dt>指導教員</dt>
-<dd>髙谷 剛志</dd>
+<dd><a href="https://cigl.iit.tsukuba.ac.jp/ja/home" target="_blank">筑波大学 計算撮像研究室</a>（2023.04 - 2026.03）</dd>
 <dt>研究テーマ</dt>
 <dd>computer vision, computational photography</dd>
 <dt>連絡先</dt>
@@ -24,31 +22,32 @@
 
 </nav>
 
-## publication
+## Publications 
 
-### 国際会議 {: .group-title }
+### 国際会議 {: .card-list-trigger }
 
 - #### Shape from Polarization of Thermal Emission and Reflection
   Kazuma Kitazawa, Tsuyoshi Takatani
-  2025.07 IEEE International Conference on Computational Photography (ICCP2025) 口頭発表 **[採択率: 36.4%]**
-  遠赤外線の偏光を利用して、単一視点・パッシブな計測から法線を推定します。遠赤外では多くの材質が不透明かつ発光性であるため、透明な物体や黒い物体でも計測が可能です。
-  [[Paper]](https://arxiv.org/abs/2506.18217) [[Project]](https://k2zm.github.io/SfPTER-ICCP2025/)
+  2025.07 IEEE International Conference on Computational Photography (ICCP2025) **[採択率: 36.4%]**
+  透明な物体の形状を計測するために、遠赤外波長の偏光を利用する形状復元手法。
+  [[Paper]](https://arxiv.org/abs/2506.18217) [[Project]](http://k2zm.github.io/SfPTER-ICCP2025/)
 
 - #### PS-EIP: Robust Photometric Stereo Based on Event Interval Profile
   Kazuma Kitazawa, Takahito Aoto, Satoshi Ikehata, Tsuyoshi Takatani
   2025.06 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR2025) **[採択率: 22.1%]**
-  光源の動きによって発生する陰影の変化を、イベントカメラで計測して法線を推定します。イベントの発生間隔に基づいた時間区間マスクにより、光沢や影に対してロバストな推定を実現します。
+  イベントカメラを利用し、陰影の変化を捉えることで法線を推定する手法。
   [[Paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Kitazawa_PS-EIP_Robust_Photometric_Stereo_Based_on_Event_Interval_Profile_CVPR_2025_paper.html)
 
-### 国内会議 {: .group-title }
+
+### 国内会議 {: .card-list-trigger }
 
 - #### 熱放射・反射の偏光に基づく法線推定
   北沢一真, 髙谷剛志
-  2025.08 第28回 画像の認識・理解シンポジウム (MIRU2025) 口頭発表 **[MIRUオーディエンス賞, MIRU学生奨励賞]**
+  2025.08 第28回 画像の認識・理解シンポジウム (MIRU2025) **[MIRUオーディエンス賞, MIRU学生奨励賞]**
 
 - #### イベントカメラと運動光源を用いた法線推定
   北沢一真, 青砥隆仁, 池畑諭, 髙谷剛志
-  2024.08 第27回 画像の認識・理解シンポジウム (MIRU2024) 口頭発表 **[MIRUオーディエンス賞]**
+  2024.08 第27回 画像の認識・理解シンポジウム (MIRU2024) **[MIRUオーディエンス賞]**
 
 - #### イベントカメラと運動光源を用いた外観検査手法
   北沢一真, 髙谷剛志
@@ -56,30 +55,44 @@
 
 - #### 運動光源下におけるイベント間隔に基づく法線推定
   北沢一真, 青砥隆仁, 池畑諭, 髙谷剛志
-  2024.05 CVIM2024年5月研究会
+  2024.05 第238回 CVIM研究発表会
 
-### 書籍 {: .group-title }
-
-- #### 画像ラボ 2024年12月号 "イベントカメラと照明方向切替えによる外観検査手法"
-  北沢一真, 蛭子綾花, 髙谷剛志
-
-### 特許 {: .group-title }
+### 特許 {: .card-list-trigger } 
 
 - #### 特許第7713261号 "表面検査方法"
   髙谷剛志, 北沢一真
 
-## history
+### 書籍 {: .card-list-trigger }
+
+- #### 画像ラボ 2024年12月号 "イベントカメラと照明方向切替えによる外観検査手法"
+  北沢一真, 蛭子綾花, 髙谷剛志
+
+
+## Awards
+
+- **最優秀修士論文賞, 研究群⻑表彰**
+  2026.03 筑波大学大学院 システム情報工学研究群
+
+- **MIRUオーディエンス賞, MIRU学生奨励賞**
+  2025.08 第28回 画像の認識・理解シンポジウム (MIRU2025)
+
+- **MIRUオーディエンス賞**
+  2024.08 第27回 画像の認識・理解シンポジウム (MIRU2024)
+
+
+## History
 
 - 2024.04 – 2026.03
-  筑波大学大学院 理工情報生命学術院 システム情報工学研究群
+  筑波大学大学院 システム情報工学研究群
 
 - 2024.08 – 2024.09
-  ソニーセミコンダクタソリューションズ（インターンシップ）
+  ソニーセミコンダクタソリューションズ株式会社（インターンシップ）
 
 - 2020.04 – 2024.03
   筑波大学 理工学群 工学システム学類
 
-## projects
+
+## Projects
 
 <div class="grid" markdown="1">
 
