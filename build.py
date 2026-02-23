@@ -21,13 +21,8 @@ def main():
         'meta',        # YAML-like frontmatter
         'attr_list',   # Element attributes {: .class }
         'def_list',    # Definition lists
-        'nl2br',       # New lines to <br> tags
-        'toc'          # Table of Contents
-    ], extension_configs={
-        'toc': {
-            'toc_depth': '2-2', # Only include <h2> tags in the TOC
-        }
-    })
+        'nl2br'        # New lines to <br> tags
+    ])
     # Disable indented code block parsing so that indented HTML tags aren't treated as code blocks
     if 'indent' in md.parser.blockprocessors:
         md.parser.blockprocessors.deregister('indent')
